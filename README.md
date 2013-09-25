@@ -1,5 +1,5 @@
 #vim-bundle-freeze
-Vim plugin to import and exports bundles
+Vim plugin to import and export bundles
 
 ##Install
 1. Install [Vundle]
