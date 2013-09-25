@@ -1,7 +1,7 @@
 function! s:BundleFreeze(fname)
     silent call vundle#installer#list('!'=='<bang>')
     silent write! ~/.vim/my-bundles.vim
-    echo "Backup from bundles list created!"
+    echo "Backup of bundle list created!"
 
     if a:fname != ""
         let s:bundles = readfile(expand("~/.vim/my-bundles.vim"))
