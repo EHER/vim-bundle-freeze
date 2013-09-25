@@ -6,7 +6,7 @@ function! s:BundleFreeze(fname)
     quit
 endfunction
 
-function! s:BundleInstall(fname)
+function! s:BundleInstallFromFile(fname)
     source a:fname
     silent call vundle#installer#new('!' == '<bang>', '')
     quit
@@ -14,5 +14,5 @@ endfunction
 
 command! -nargs=* BundleFreeze
             \ call s:BundleFreeze('<args>')
-command! -nargs=* BundleInstall
-            \ call s:BundleInstall('<args>')
+command! -nargs=* BundleInstallFromFile
+            \ call s:BundleInstallFromFile('<args>')
