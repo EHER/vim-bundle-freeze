@@ -11,10 +11,5 @@ To export your installed bundles to a file named bundles.txt:
 :BundleFreeze path/to/bundles.txt
 ```
 
-To install bundles from bundles.txt:
-```
-:BundleInstallFromFile path/to/bundles.txt
-```
-
 [Vundle]:http://github.com/gmarik/vundle
 

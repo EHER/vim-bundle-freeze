@@ -12,15 +12,5 @@ function! s:BundleFreeze(fname)
     quit
 endfunction
 
-function! s:BundleInstallFromFile(fname)
-    if a:fname != ""
-        source a:fname
-        silent call vundle#installer#new('!' == '<bang>', '')
-        quit
-    endif
-endfunction
-
 command! -nargs=* BundleFreeze
             \ call s:BundleFreeze('<args>')
-command! -nargs=* BundleInstallFromFile
-            \ call s:BundleInstallFromFile('<args>')
