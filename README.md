@@ -13,3 +13,7 @@ To export your installed bundles to a file named bundles.txt:
 
 [Vundle]:http://github.com/gmarik/vundle
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/EHER/vim-bundle-freeze/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
